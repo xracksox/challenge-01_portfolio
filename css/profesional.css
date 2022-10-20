@@ -1,0 +1,84 @@
+.profesional__titulo {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.profesional__card {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+.profesional__descripcion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.profesional__img {
+    width: 100%;
+}
+
+.profesional-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profesional-container__titulo {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+}
+
+.profesional-container__texto {
+    font-size: .9rem;
+    margin-bottom: .5rem;
+    font-weight: 400;
+}
+
+.boton {
+    font-size: .8rem;
+    font-weight: 400;
+    margin-top: .8rem;
+    margin-bottom: 1.5rem;
+}
+
+.profesional-container__repo {
+    color: #5a0000;
+    padding: .8rem;
+    border: 1px solid #5a0000;
+    margin: 1rem;
+}
+
+.profesional-container__demo {
+    color: #c3c3c3;
+    background: #5a0000;
+    padding: .8rem;
+    border: 1px solid #5a0000;
+    margin: 1rem;
+}
+
+
+@media screen and (min-width: 768px) {
+    .profesional__titulo {
+        margin-top: 3.5rem;
+    }
+    .boton {
+        font-size: 1rem;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .profesional__img {
+        width: 65%;
+    }
+    .profesional__card {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .profesional--cambio {
+        flex-direction: row-reverse;
+    }
+}

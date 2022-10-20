@@ -1,0 +1,9 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #c3c3c3;
+}
+
+.container {
+    padding-right: 6%;
+    padding-left: 6%;
+}

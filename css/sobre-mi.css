@@ -1,0 +1,14 @@
+.sobre-mi {
+    background: #dddddd;
+    padding-bottom: .7rem;
+    padding-top: .1rem;
+}
+.sobre-mi__titulo {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+.sobre-mi__texto {
+    margin-bottom: 1rem;
+}

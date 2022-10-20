@@ -1,0 +1,52 @@
+.academic {
+    background: #dddddd;
+}
+.academic__titulo {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.academic__container {
+    margin-top: 2rem;
+}
+.academic__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.academic__img {
+    width: 50%;
+    margin-top: .3rem;
+}
+.academic__texto {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.academic__fecha {
+    margin-top: .8rem;
+    font-size: .85rem;
+}
+.academic__sede {
+    margin-top: .8rem;
+    font-size: .9rem;
+    color: #131233;
+}
+
+@media screen and (min-width: 768px) {
+    .academic__titulo {
+        margin-top: 3.5rem;
+    }
+    .academic__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .academic__img {
+        height: 10rem;
+        width: auto;
+    }
+}
